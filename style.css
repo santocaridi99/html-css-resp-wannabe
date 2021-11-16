@@ -76,6 +76,102 @@ img {
 
 /* ----da qui inizio a lavorare---- */
 
+/* --- versione bonus per tablet--- */
+
+/* tablet */
+@media screen and (min-width: 576px) and (max-width: 1199px) {
+  body{
+    margin:0;
+  }
+
+  img{
+    margin-top: 20px;
+  }
+
+  .left>h3,.right>h3,.central>h3{
+    margin: 0;
+  }
+
+
+   /* ---parte lezioni--- */
+  .container{
+    background-color: rgb(135, 192, 245);
+  }
+
+  .row{
+    margin-top: 0px;
+  }
+
+
+
+    #lezioni .row>.left,
+  #lezioni .row>.right {
+    margin-bottom: 10px;
+  }
+
+  .row>h1{
+    margin: 0px;
+    padding: 10px;
+  }
+
+
+
+  
+  /* --parte step-- */
+  #steps{
+    background-color: white;
+  }
+
+    #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width:calc(33% - 5px);
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+
+
+  
+
+
+  /* --parte why-- */
+
+  #why{
+    background-color:rgb(135, 192, 245) ;
+  }
+
+  hr{
+    background-color: black;
+  }
+    #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 0px;
+  }
+
+  .first>h3,.second>h3,.third>h3{
+    margin: 0px;
+  }
+
+  
+  .third{
+    margin-bottom: 10px;
+  }
+
+
+
+    
+  
+}
+
+
+
+
+
+
+
+
+
 /* --versione Mobile-- */
 
 @media screen and (max-width: 575px) {
