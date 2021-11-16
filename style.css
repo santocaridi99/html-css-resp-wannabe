@@ -86,6 +86,7 @@ img {
 
   img{
     margin-top: 20px;
+    height: 100px;
   }
 
   .left>h3,.right>h3,.central>h3{
@@ -181,6 +182,7 @@ img {
 
   img{
     margin-top: 20px;
+    height: 100px;
   }
 
   .left>h3,.right>h3,.central>h3{
@@ -190,7 +192,7 @@ img {
 
    /* ---parte lezioni--- */
   .container{
-    background-color: rgba(234, 234, 159, 1);
+    background-color: rgba(240, 240, 192, 1);
   }
 
   .row{
@@ -232,7 +234,7 @@ img {
   /* --parte why-- */
 
   #why{
-    background-color:rgba(234, 234, 159, 1); ;
+    background-color:rgba(240, 240, 192, 1) ;
   }
 
   hr{
