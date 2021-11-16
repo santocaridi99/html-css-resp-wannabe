@@ -87,9 +87,10 @@ img {
     margin-top: 20px;
   }
 
-  .left,.right,.central>h3{
+  .left>h3,.right>h3,.central>h3{
     margin: 0;
   }
+
 
 
    /* ---parte lezioni--- */
@@ -148,11 +149,11 @@ img {
     margin: 0px;
   }
 
+  
   .third{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
-  
 
 
   
